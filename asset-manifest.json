@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hazmatcert/static/css/main.70e1c68a.css",
+    "main.js": "/hazmatcert/static/js/main.d6a430de.js",
+    "static/js/453.122f7d03.chunk.js": "/hazmatcert/static/js/453.122f7d03.chunk.js",
+    "static/media/hazmatcert-logo.png": "/hazmatcert/static/media/hazmatcert-logo.0796273b80b9abc3aff9.png",
+    "index.html": "/hazmatcert/index.html",
+    "main.70e1c68a.css.map": "/hazmatcert/static/css/main.70e1c68a.css.map",
+    "main.d6a430de.js.map": "/hazmatcert/static/js/main.d6a430de.js.map",
+    "453.122f7d03.chunk.js.map": "/hazmatcert/static/js/453.122f7d03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70e1c68a.css",
+    "static/js/main.d6a430de.js"
+  ]
+}
