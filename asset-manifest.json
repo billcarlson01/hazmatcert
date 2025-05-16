@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hazmatcert/static/css/main.2fd113be.css",
-    "main.js": "/hazmatcert/static/js/main.916da57d.js",
+    "main.js": "/hazmatcert/static/js/main.dd8b9ebd.js",
     "static/js/453.122f7d03.chunk.js": "/hazmatcert/static/js/453.122f7d03.chunk.js",
     "index.html": "/hazmatcert/index.html",
     "main.2fd113be.css.map": "/hazmatcert/static/css/main.2fd113be.css.map",
-    "main.916da57d.js.map": "/hazmatcert/static/js/main.916da57d.js.map",
+    "main.dd8b9ebd.js.map": "/hazmatcert/static/js/main.dd8b9ebd.js.map",
     "453.122f7d03.chunk.js.map": "/hazmatcert/static/js/453.122f7d03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fd113be.css",
-    "static/js/main.916da57d.js"
+    "static/js/main.dd8b9ebd.js"
   ]
 }
