@@ -1,10 +1,15 @@
-import HazmatCertDashboard from './components/HazmatCertDashboard';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Pilot from './pages/Pilot';
 
 function App() {
   return (
-    <div className="App">
-      <HazmatCertDashboard />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/pilot" element={<Pilot />} />
+        {/* You can also add a homepage here later */}
+      </Routes>
+    </Router>
   );
 }
 
