@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/hazmatcert/static/css/main.2fd113be.css",
-    "main.js": "/hazmatcert/static/js/main.dd8b9ebd.js",
+    "main.css": "/hazmatcert/static/css/main.70e1c68a.css",
+    "main.js": "/hazmatcert/static/js/main.4b3d7df7.js",
     "static/js/453.122f7d03.chunk.js": "/hazmatcert/static/js/453.122f7d03.chunk.js",
+    "static/media/hazmatcert-logo.png": "/hazmatcert/static/media/hazmatcert-logo.23ad8958a33b8d1d236f.png",
     "index.html": "/hazmatcert/index.html",
-    "main.2fd113be.css.map": "/hazmatcert/static/css/main.2fd113be.css.map",
-    "main.dd8b9ebd.js.map": "/hazmatcert/static/js/main.dd8b9ebd.js.map",
+    "main.70e1c68a.css.map": "/hazmatcert/static/css/main.70e1c68a.css.map",
+    "main.4b3d7df7.js.map": "/hazmatcert/static/js/main.4b3d7df7.js.map",
     "453.122f7d03.chunk.js.map": "/hazmatcert/static/js/453.122f7d03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fd113be.css",
-    "static/js/main.dd8b9ebd.js"
+    "static/css/main.70e1c68a.css",
+    "static/js/main.4b3d7df7.js"
   ]
 }
