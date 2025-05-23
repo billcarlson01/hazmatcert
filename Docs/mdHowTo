@@ -1,0 +1,23 @@
+It's just a plain text file with optional formatting syntax (Markdown)
+
+Can include:
+
+# Headings (#)
+
+Checkboxes (- [ ])
+
+Code blocks (```)
+
+Tables
+
+Links
+
+Great for:
+
+Tracking tasks
+
+Project documentation
+
+# Developer notes
+
+README files in GitHub repos
