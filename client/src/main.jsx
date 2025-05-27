@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, useNavigate } from 'react-router-dom';
+import { HashRouter, useNavigate } from 'react-router-dom';
 import { Auth0Provider } from '@auth0/auth0-react';
 import App from './App';
 import './index.css';
@@ -29,8 +29,8 @@ function Auth0ProviderWithRedirect() {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Auth0ProviderWithRedirect />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );

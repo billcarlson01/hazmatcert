@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/hazmatcert-logo.png';
 
 export default function ReceptionLandingPage() {
   const [status, setStatus] = useState('idle');
@@ -31,35 +32,34 @@ export default function ReceptionLandingPage() {
   return (
     <div className="min-h-screen bg-white text-gray-900 flex flex-col items-center justify-center px-4 py-10 text-center">
       <img
-        src="/assets/hazmatcert-logo.png"
+        src={logo}
         alt="HazmatCert Logo"
-        className="w-36 h-36 mb-6"
+        className="mb-6 w-40 h-auto"
       />
 
-      <h1 className="text-4xl font-bold text-blue-800 mb-4">
-        FMCSA Hazmat Theory Training – Online
+      <h1 className="text-3xl sm:text-4xl font-bold text-[#17478F] mb-4">
+        🚛 HazmatCert – FMCSA Hazmat Theory Training. Online. Self-Paced.
       </h1>
 
-      <p className="text-lg max-w-xl mb-8">
-        HazmatCert.com is launching soon. Get certified from home with self-paced, FMCSA-registered hazmat training.
-        Join the waitlist to be the first to access the course.
+      <p className="text-lg mb-6 text-gray-700 max-w-xl">
+        HazmatCert.com is launching soon. Get certified from home with FMCSA-registered hazmat theory training — fully online and built for working drivers.
       </p>
 
       {status !== 'success' && (
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col sm:flex-row items-center justify-center gap-2"
+          className="flex flex-col sm:flex-row justify-center items-center gap-4"
         >
           <input
             type="email"
             name="email"
-            required
             placeholder="Enter your email"
-            className="px-4 py-2 border border-gray-300 rounded shadow w-full sm:w-72"
+            required
+            className="w-full sm:w-64 px-4 py-2 border border-gray-300 rounded"
           />
           <button
             type="submit"
-            className="px-6 py-2 bg-blue-700 text-white rounded shadow hover:bg-blue-800"
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
             disabled={status === 'loading'}
           >
             {status === 'loading' ? 'Submitting…' : 'Join Waitlist'}
@@ -79,8 +79,8 @@ export default function ReceptionLandingPage() {
         </p>
       )}
 
-      <p className="text-sm text-gray-500 mt-4">
-        We’ll only notify you about the launch – no spam.
+      <p className="mt-4 text-sm text-gray-500">
+        We’ll only contact you about the launch — no spam, ever.
       </p>
     </div>
   );
