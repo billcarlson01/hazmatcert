@@ -34,15 +34,15 @@ export default function ReceptionLandingPage() {
       <img
         src={logo}
         alt="HazmatCert Logo"
-        className="mb-6 w-40 h-auto"
+        className="mb-10 w-64 h-auto"
       />
 
-      <h1 className="text-3xl sm:text-4xl font-bold text-[#17478F] mb-4">
-        🚛 HazmatCert – FMCSA Hazmat Theory Training. Online. Self-Paced.
+      <h1 className="text-4xl sm:text-5xl font-bold text-blue-800 mb-6">
+        HazmatCert – FMCSA Hazmat Theory Training, 100% Online
       </h1>
 
       <p className="text-lg mb-6 text-gray-700 max-w-xl">
-        HazmatCert.com is launching soon. Get certified from home with FMCSA-registered hazmat theory training — fully online and built for working drivers.
+        HazmatCert.com is launching soon. Our self-paced, FMCSA-registered hazmat theory training is built for truck drivers — accessible from your truck, rest stop, or favorite coffee shop. No classroom needed. All online, super friendly, and includes practice questions to help you pass the DMV exam.
       </p>
 
       {status !== 'success' && (
